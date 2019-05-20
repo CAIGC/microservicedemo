@@ -1,4 +1,9 @@
 server:
-  port: 7900
+  port: 7901
 spring:
-  application.name: provider-user
+  application:
+    name: provider-user
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10000/eureka/
