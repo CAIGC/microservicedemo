@@ -11,6 +11,7 @@
     <modules>
         <module>provider-user</module>
         <module>consumer-order</module>
+        <module>consumer-order-ribbon</module>
         <module>eureka</module>
     </modules>
     <parent>
